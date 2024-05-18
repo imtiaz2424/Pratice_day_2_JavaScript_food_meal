@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(to right, rgba(209, 182, 220, 0.09), rgba(145, 107, 152, 0.1));
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;       
+}
+
+.singly-food-container{    
+    width: 300px;
+    margin: auto;   
+    margin-bottom: 15px;      
+}
+
+.singlycard{
+    border: 1px solid gray; 
+    padding: 15px;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 5px;
+}
+
+.all-food-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 100%;
+    margin: auto;
+    text-align: center;    
+}
+.card{
+    border: 1px solid gray; 
+    padding: 15px;
+    box-shadow: 4px 4px 8px gray;
+}
+
+.card-img{    
+    height: 250px;
+}
+.food-name{
+    text-align: center;
+}
+
+.ingredients{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: rgba(232, 227, 235, 0.44);
+    padding: 15px;
+}
